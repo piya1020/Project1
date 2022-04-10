@@ -1,0 +1,15 @@
+package com.sample.sets;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class hashmap {
+	public static void main(String[] args) {
+		Map<String, Integer> map1= new HashMap<String, Integer>();
+		map1.put("abcs",67);
+		map1.put("tsffc", 34);
+		map1.put("dhfhuj", 23);
+		System.out.println(map1);
+	}
+
+}

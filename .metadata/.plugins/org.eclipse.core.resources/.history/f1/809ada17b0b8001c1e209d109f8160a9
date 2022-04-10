@@ -1,0 +1,21 @@
+package com.sample.sets;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class hashmap {
+	public static void main(String[] args) {
+		Map<String, Integer> map1= new HashMap<String, Integer>();
+		map1.put("abcs",67);
+		map1.put("sneha", 34);
+		map1.put("draj", 23);
+		System.out.println(map1);
+		map1.put("didi", 56);
+		System.out.println(map1);
+		
+		System.out.println("Is there abcs ? "+map1.containsKey("abcs"));
+		
+		System.out.println("All key: " +map1.keySet());
+	}
+
+}

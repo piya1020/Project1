@@ -1,0 +1,21 @@
+package com.sample.sets;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+public class testhashmap 
+{
+	
+	public static void main(String[] args)
+	
+	{
+		NavigableSet<Integer> set= new TreeSet<Integer>();
+		set.add(67);
+		set.add(56);
+		set.add(7);
+		set.add(23);
+		set.add(92);
+		System.out.println(set);
+		
+		System.out.println("What is the element lower of 67: " +set.lower(67));
+	}
+
+}
